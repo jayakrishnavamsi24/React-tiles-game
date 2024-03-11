@@ -1,0 +1,55 @@
+.name-entry-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+
+.name-entry-title {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.name-entry-input-container {
+  border: 3px solid black;
+  min-height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-entry-input-container > label {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.name-entry-input-container > input {
+  border: 3px solid black;
+  border-radius: 7px;
+  font-size: 28px;
+  padding: 15px 10px;
+  height: 50px;
+  width: 90%;
+  max-width: 300px;
+  outline: none;
+  margin-bottom: 25px;
+}
+
+.name-entry-input-container > button {
+  height: 35px;
+  width: 90%;
+  max-width: 180px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #3028a0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}

@@ -1,0 +1,50 @@
+.game-board-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+
+.game-board-title {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.game-board-tiles-container {
+  border: 3px solid black;
+  min-height: 75vh;
+  width: 100%;
+}
+
+.score-time-container {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  padding-left: 7px;
+  padding-right: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-board-user-greeting-container {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 7px;
+  padding-right: 15px;
+}
+
+.game-board-tiles-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
