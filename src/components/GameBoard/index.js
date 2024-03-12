@@ -347,9 +347,11 @@ class GameBoard extends Component {
           </div>
           {showSuccessView ? (
             <div className="success-container">
-              <h1>Game Finished!</h1>
-              <h1> Score: {score}</h1>
-              <h1>Time Taken: {this.formatTime(timer)}</h1>
+              <h1 className="success-container-title">Game Finished!</h1>
+              <h1 className="success-container-score"> Score: {score}</h1>
+              <h1 className="success-container-time">
+                Time Taken: {this.formatTime(timer)}
+              </h1>
             </div>
           ) : (
             <ul className="game-board-tiles-list-container">
